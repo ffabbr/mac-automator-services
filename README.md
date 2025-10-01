@@ -26,6 +26,7 @@ This repository contains useful macOS Automator workflow services that can be ac
    ```
 
 3. The services will now appear in the menu bar when clicking on the application name, then services. 
+4. If something doesn't work or you want to edit the files, open the folder as above and double click the Automator files. They will open in the editor automatically.
 
 ## Assigning Keyboard Shortcuts
 
