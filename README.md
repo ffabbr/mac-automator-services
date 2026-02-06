@@ -1,32 +1,23 @@
 # Mac Automator Services
 
-This repository contains useful macOS Automator workflow services that can be accessed from the right-click context menu or assigned keyboard shortcuts.
+This repository contains useful macOS Automator workflow services and folder actions that can be accessed from the right-click context menu or assigned keyboard shortcuts.
 
 ## Available Services
+
+To store at `~/Library/Services/`
 
 - **Create New File Without Filetype.workflow** - Creates a new file without requiring a file extension
 - **Open in IDE.workflow** - Opens files or folders in your preferred IDE
 
-## Installation
+## Available Folder Actions
 
-1. Download the `.workflow` folders from this repository. The "folders" will be displayed as a single packed file in MacOS.
-2. Copy the `.workflow` files to your Services folder:
-   ```
-   ~/Library/Services/
-   ```
-   
-   You can access this folder by:
-   - Opening Finder
-   - Pressing `Cmd + Shift + G` (Go to Folder)
-   - Typing `~/Library/Services/` and pressing Enter
-   
-   Alternatively, you can use Terminal:
-   ```bash
-   cp *.workflow ~/Library/Services/
-   ```
+To store at `~/Library/Workflows/Applications/Folder Actions/`
 
-3. The services will now appear in the menu bar when clicking on the application name, then services. 
-4. If something doesn't work or you want to edit the files, open the folder as above and double click the Automator files. They will open in the editor automatically.
+- **Move file to another folder** – used to move files from one downloads folder to the other. 
+
+---
+
+The services will now appear in the menu bar when clicking on the application name, then services. If something doesn't work or you want to edit the files, open the folder as above and double click the Automator files. They will open in the editor automatically.
 
 ## Assigning Keyboard Shortcuts
 
