@@ -1,6 +1,6 @@
 # Mac Automator Services
 
-This repository contains useful macOS Automator workflow services and folder actions that can be accessed from the right-click context menu or assigned keyboard shortcuts.
+My macOS Automator workflow services and folder actions that can be accessed from the right-click context menu or assigned keyboard shortcuts. 
 
 ## Available Services
 
@@ -8,6 +8,8 @@ To store at `~/Library/Services/`
 
 - **Create New File Without Filetype.workflow** - Creates a new file without requiring a file extension
 - **Open in IDE.workflow** - Opens files or folders in your preferred IDE
+- **Open in Claude Code** - Opens folder in Claude Code TUI with `--dangerously-skip-permissions`
+- **Open in Codex** - Opens folder in Codex TUI with `--yolo`
 
 ## Available Folder Actions
 
